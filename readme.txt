@@ -20,7 +20,7 @@ Mongodb, MongoShell, Mongodb-Database-Tools, Nodejs, VSCode, Python.
 
 ->open cmd and Type "pip3 install pymongo" to install pymongo module
 ->Now open The Repository in local directory using VSCode
-->Now open import.py file in Python_Mongo_Importer and run the python file
+->Now open import.py file in Sample_Data_Import_Mongo and run the python file
 
 ===>Installing All neccessary modules to run the app
 
