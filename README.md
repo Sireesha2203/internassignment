@@ -6,6 +6,40 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Prequestisites
+
+Mongodb, MongoShell, Mongodb-Database-Tools, Nodejs, VSCode, Python.
+
+### `npm install`
+
+Installs all necessary modules required to run the app.
+
+### `Starting MongoShell`
+
+Start Mongoshell (mongosh) using empty string 
+
+### `use test`
+
+In MongoShell using "use test" command will create database namely test
+
+### `db.createCollection("userCollection")`
+
+In MongoShell with test as current database, using "db.createCollection("userCollection")" will create a collection namely userCollection
+
+### `importing sample_data from sample_data.json`
+
+Install pymongo module for python using:
+>pip3 install pymongo
+open "./Sample_Data_Import_Mongo/import.py" and run it using python. This will automatically import the sample_data from sample_data.json into userCollection of test database in MongoDB
+
+### `npm install -g nodemon`
+
+Running this command will install nodemon module which runs the backend seamlessly.
+
+### `nodemon server.js`
+
+Running this command will start Backend Server
+
 ### `npm start`
 
 Runs the app in the development mode.\
